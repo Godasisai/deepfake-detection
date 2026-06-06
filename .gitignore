@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+db.sqlite3
+local_settings.py
+db.sqlite3-journal
+
+# Large model dataset files (over GitHub 100MB limit)
+# Note: These will be auto-generated from Dataset/Tweepfake.csv on first run
+model/X.npy
+model/Y.npy
+
+# Python Installer
+python-3.7.6-amd64.exe
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
