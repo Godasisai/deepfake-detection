@@ -1,3 +1,12 @@
+---
+title: Deepfake Detection
+emoji: 🛡️
+colorFrom: red
+colorTo: blue
+sdk: docker
+app_port: 7860
+---
+
 # Deepfake Detection on Social Media Leveraging Deep Learning & FastText Embeddings
 
 A Django-based web application that leverages Deep Learning (CNN) and Machine Learning models (Naive Bayes, Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, XGBoost, and an Extension Hybrid CNN) to identify machine-generated (fake) tweets.
